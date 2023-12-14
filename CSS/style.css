@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*================================Header=================================*/
+
+header {
+    width: 100%;
+    background: url('../IMG/Imagen\ Don\ Chino.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+header .contenedor {
+    position: relative;
+    height: 800px;
+}
+
+header .menu {
+    width: 100%;
+    text-align: right;
+    margin: 40px;
+}
+
+.menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: inline-block;
+}
+
+.textos {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    margin-top: 120px;
+}
+
+header .nombre {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+header .nombre span {
+    font-weight: 300;
+}
+
+header .slogan {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+
+/*================================Main=================================*/
+
+.main {
+    background: url('../IMG/presence-ii.png');
+    background-repeat: repeat;
+}
+
+.main .acerca_de .contenedor {
+    overflow: visible;
+    position: relative;
+}
+
+.acerca_de .foto_site {
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+
+}
+
+.acerca_de .foto_site img {
+    vertical-align: top;
+}
+
+.main .acerca_de article {
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 300px;
+    float: right;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+}
+
+.main article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main article p {
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.main .menu {
+    padding-top: 700px;
+    margin-bottom: 50px;
+}
+
+.main .titulo {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.main .menu .contenedor_menu,
+.main .menu .contenedor_menu2 {
+    border: #000 solid 2px;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.main .menu .contenedor_menu2 {
+    backdrop-filter: blur(2px);
+}
+
+
+.main .menu article {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.main .menu .categoria {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .menu .platillo {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #000;
+    overflow: hidden;
+}
+
+
+.main .menu .nombre {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.main .menu .precio {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.main .menu .descripcion {
+    font-size: 16px;
+    color: #343434;
+}
+
+.main .galeria {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.galeria .foto img {
+    object-position: center;
+    opacity: .6;
+    width: 500px;
+    height: 500px;
+    vertical-align: top;
+}
+
+.main .foto img:hover {
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.main .lugar {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.main .lugar .titulo {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main .lugar .direccion {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.main .lugar .horarios {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.main .lugar .direccion .calle {
+    margin-bottom: 15px;
+}
+
+.main .lugar .horarios h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .lugar .horarios .entre-semana,
+.main .lugar .horarios .fin-semana {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+
+/*================================Footer=================================*/
+
+footer {
+    background-color: #000;
+}
+
+footer .titulo_footer,
+.copy {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.redes_sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.redes_sociales a {
+    text-align: center;
+    width: 250px;
+    padding: 15px 0;
+    border-radius: 5px;
+   
+}
+
+.redes_sociales .faceboock:hover {
+    background: #3b5998;
+}
+
+.redes_sociales .instagram:hover {
+    background: linear-gradient(45deg,
+            #405de6,
+            #5851db,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #fd1d1d);
+}
