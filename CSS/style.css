@@ -161,6 +161,13 @@ header .slogan {
     overflow: hidden;
 }
 
+.main .menu .bebida {
+    margin-bottom: 24px;
+    padding-bottom: 70px;
+    border-bottom: 4px dotted #000;
+    overflow: hidden;
+}
+
 .main .menu .nombre {
     font-size: 25px;
     margin-bottom: 15px;
@@ -397,7 +404,7 @@ footer .titulo_footer {
     .main .acerca_de article {
 		position: relative;
 		width: 100%;
-		top: 230px;
+		top: 200px;
 		transform: translate(0px, 0);
 	}
 
